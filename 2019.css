@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+div.big {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    text-align: center;
+    display: block;
+
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+div.help {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    display: none;
+
+    font-size: 15px;
+    color: white;
+
+}
+
+div.small {
+    display: none;
+    }
+.foot {
+    color: white;
+    bottom: 2px;
+    left: 2px;
+    position: absolute;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        background-color: white;
+    }
+    div.small {
+        font-size: 35px;
+        font-weight: bold;
+        color: black;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        top: 48%;
+        width: 100%;
+        text-align: center;
+        display: block;
+
+    }
+    div.big {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>
+<body>
+<ul id="myList"></ul>
+<script type="text/javascript">
+
+var ul = document.getElementById('myList');
+
+var fragment = document.createDocumentFragment();
+
+for (var i = 0; i < 3; i++) {
+	let li = document.createElement('li');
+	li.appendChild(document.createTextNode('Item' + (i+1)));
+	fragment.appendChild(li);
+}
+
+ul.appendChild(fragment);
+
+
+</script>
+
+<textarea></textarea>
+</body>
+</html>
